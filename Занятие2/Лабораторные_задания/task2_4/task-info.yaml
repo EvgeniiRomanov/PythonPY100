@@ -6,15 +6,15 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 164
-    length: 34
+  - offset: 165
+    length: 225
     placeholder_text: '# TODO Распечатать строку лесенкой'
     initial_state:
       length: 34
       offset: 164
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: '...'
   text: |
     if __name__ == "__main__":
@@ -25,5 +25,20 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: Tue, 19 Oct 2021 20:06:45 UTC
+  actual: |2
+          H
+           e
+            l
+             l
+              o
+               ,
+                w
+                 o
+                  r
+                   l
+                    d
 record: -1
