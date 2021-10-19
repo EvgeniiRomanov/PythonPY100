@@ -15,8 +15,8 @@ files:
       length: 3
       offset: 11
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: and
   text: |
     print(True ... False)  # False
@@ -24,5 +24,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 19 Oct 2021 09:29:28 UTC
 record: -1

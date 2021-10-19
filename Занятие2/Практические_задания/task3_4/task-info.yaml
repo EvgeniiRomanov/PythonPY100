@@ -4,55 +4,55 @@ files:
   visible: true
   placeholders:
   - offset: 8
-    length: 82
+    length: 116
     placeholder_text: '...  # TODO запросить месяц у пользователя. Номер месяца -
       целочисленное значение!'
     initial_state:
       length: 82
       offset: 8
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: int(input())
-  - offset: 105
-    length: 3
+  - offset: 139
+    length: 7
     placeholder_text: '...'
     initial_state:
       length: 3
       offset: 105
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 3, 4, 5
-  - offset: 145
-    length: 3
+  - offset: 183
+    length: 7
     placeholder_text: '...'
     initial_state:
       length: 3
       offset: 145
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 6, 7, 8
-  - offset: 184
-    length: 3
+  - offset: 226
+    length: 9
     placeholder_text: '...'
     initial_state:
       length: 3
       offset: 184
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 9, 10, 11
-  - offset: 224
-    length: 3
+  - offset: 272
+    length: 8
     placeholder_text: '...'
     initial_state:
       length: 3
       offset: 224
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 12, 1, 2
   text: |
     mount = ...  # TODO запросить месяц у пользователя. Номер месяца - целочисленное значение!
@@ -69,6 +69,6 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true
