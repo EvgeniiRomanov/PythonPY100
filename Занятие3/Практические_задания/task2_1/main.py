@@ -1,10 +1,14 @@
-def pow_func(base, pow_=2):
-    # base ** pow_ -> реализовать через цикл while
-    ...  # TODO
+def pow_func(base=2, pow_=3):
 
+    sum_ = base
+    while pow_ > 1:
+        sum_ = sum_ * base
+        pow_ -= 1
+       # print(sum_)
+    return sum_
 
 if __name__ == "__main__":
-    a = 5
-    n = 3
+    a = 2
+    n = 5
 
     print(pow_func(a, n))
