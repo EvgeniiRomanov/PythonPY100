@@ -10,6 +10,11 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
+- name: test.py
+  visible: true
+  learner_created: true
 status: Solved
+feedback:
+  time: Mon, 25 Oct 2021 08:40:19 UTC
 record: -1
 post_submission_on_open: true

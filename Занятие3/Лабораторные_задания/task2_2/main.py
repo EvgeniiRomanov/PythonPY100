@@ -1,5 +1,4 @@
-if __name__ == "__main__":
-    # Write your solution here
-    pass
+from Palindrom import palindrom_func
 
-#Использовать срез в обратной последовательности или циклами
+if __name__ == "__main__":
+    palindrom_func("Кит на море не романтик")

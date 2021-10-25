@@ -8,37 +8,40 @@ files:
     ***
     ****
   learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
 - name: main.py
   visible: true
   placeholders:
   - offset: 46
-    length: 1
+    length: 0
     placeholder_text: '...  # TODO количество ступеней'
     initial_state:
       length: 31
       offset: 46
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: 4
-  - offset: 61
-    length: 25
+  - offset: 46
+    length: 21
     placeholder_text: '...:  # TODO как получить последовательность чисел?'
     initial_state:
       length: 51
       offset: 91
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: 'range(1, count_stairs + 1):'
-  - offset: 100
-    length: 9
+  - offset: 81
+    length: 28
     placeholder_text: '(...)  # TODO печать ступени'
     initial_state:
       length: 28
       offset: 156
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: ("*" * i)
   text: |
@@ -47,11 +50,8 @@ files:
         for i in ...:  # TODO как получить последовательность чисел?
             print(...)  # TODO печать ступени
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 status: Solved
 feedback:
   message: Congratulations!
-  time: Tue, 19 Oct 2021 19:50:12 UTC
+  time: Wed, 20 Oct 2021 05:56:50 UTC
 record: -1

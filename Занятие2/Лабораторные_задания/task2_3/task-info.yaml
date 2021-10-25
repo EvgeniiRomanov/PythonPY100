@@ -10,13 +10,13 @@ files:
   visible: true
   placeholders:
   - offset: 576
-    length: 85
+    length: 38
     placeholder_text: '# TODO распечатать фамилии и их номера'
     initial_state:
       length: 38
       offset: 576
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Failed
     encrypted_possible_answer: '# TODO'
   text: |
@@ -54,7 +54,7 @@ files:
 status: Failed
 feedback:
   message: Incorrect
-  time: Tue, 19 Oct 2021 20:03:05 UTC
+  time: Wed, 20 Oct 2021 05:57:00 UTC
   actual: |
     1 Иванов
     2 Васильев

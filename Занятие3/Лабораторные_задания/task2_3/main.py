@@ -1,4 +1,5 @@
+from test import poisk_slov
+
 if __name__ == "__main__":
-    # Write your solution here
-    pass
+    poisk_slov()
 
