@@ -8,6 +8,6 @@ def check_string(str_):
 
 
 if __name__ == "__main__":
-    print(check_string('0201'))
+    print(check_string('011111000000111'))
     # Write your solution here
     #pass

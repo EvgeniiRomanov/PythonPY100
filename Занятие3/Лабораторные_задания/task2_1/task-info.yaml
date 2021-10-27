@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 29
-    length: 37
+  - offset: 25
+    length: 0
     placeholder_text: '...  # TODO проверка совпадения строк'
     initial_state:
       length: 37
@@ -28,6 +28,9 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
+- name: 123.py
+  visible: true
+  learner_created: true
 status: Solved
 record: -1
 post_submission_on_open: true
