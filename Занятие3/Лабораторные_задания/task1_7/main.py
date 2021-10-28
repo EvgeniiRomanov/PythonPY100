@@ -1,3 +1,7 @@
 if __name__ == "__main__":
-    # Write your solution here
-    pass
+
+    S = 500
+    A = 100
+    B = 200
+
+
