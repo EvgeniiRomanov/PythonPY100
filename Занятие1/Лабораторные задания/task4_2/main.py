@@ -1,3 +1,4 @@
-result_list = ...  # TODO используя операторы умножения и сложения сформировать список
+if __name__ == "__main__":
 
-print(result_list)
+    result_list = [0] * 20 + [1] * 50 + [2] * 30
+    print(result_list)

@@ -3,7 +3,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 59
+  - offset: 243
     length: 49
     placeholder_text: '...  # TODO запросить у пользователя год рождения'
     initial_state:
@@ -11,9 +11,9 @@ files:
       offset: 59
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 'int(input("Год рождения: "))'
-  - offset: 124
+  - offset: 308
     length: 48
     placeholder_text: '...  # TODO запросить у пользователя текущий год'
     initial_state:
@@ -21,9 +21,9 @@ files:
       offset: 124
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 'int(input("Текущий год: "))'
-  - offset: 174
+  - offset: 358
     length: 55
     placeholder_text: '# TODO посчитать и распечатать количество прожитых дней'
     initial_state:
@@ -31,7 +31,7 @@ files:
       offset: 174
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       days = (current_year - start_year) * DAYS_OF_YEAR
       print(days)
@@ -46,6 +46,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  time: Thu, 28 Oct 2021 19:33:07 UTC
 record: -1
 post_submission_on_open: true

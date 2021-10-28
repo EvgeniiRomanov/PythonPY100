@@ -7,14 +7,14 @@ files:
   visible: true
   placeholders:
   - offset: 39
-    length: 25
+    length: 0
     placeholder_text: '# TODO сложить два списка'
     initial_state:
       length: 25
       offset: 39
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: print(list_1 + list_2)
   text: |
     list_1 = [1, 2, 3]
@@ -25,5 +25,10 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: Thu, 28 Oct 2021 19:43:00 UTC
+  actual: |
+    [1, 2, 3, 3, 2, 1]
 record: -1

@@ -1,11 +1,13 @@
 type: theory
 files:
-- name: main.py
-  visible: true
-  learner_created: false
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+- name: main.py
+  visible: true
+  learner_created: false
+status: Solved
+feedback:
+  time: Thu, 28 Oct 2021 19:29:44 UTC
 record: -1
 post_submission_on_open: true
