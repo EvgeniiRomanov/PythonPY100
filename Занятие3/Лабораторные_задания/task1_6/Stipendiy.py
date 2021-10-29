@@ -17,4 +17,4 @@ def step_func(a, b, procent, k):
     if nexvatka >= 0:
         return print("Богатый студент, денег на учебный год хватает!")
     else:
-        return print(f"Для жизни на учебный год необходимо: {doxod - nexvatka:.0f} рублей")
+        return print(f"Для жизни на учебный год необходимо: {doxod - nexvatka:.1f} рублей")
