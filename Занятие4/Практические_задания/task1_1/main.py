@@ -7,7 +7,7 @@ def list_over_for_loop(n):
 
 
 def list_comprehension(n):
-    return []  # TODO записать list comprehension
+    return [x ** 2 for x in range(n)]
 
 
 if __name__ == "__main__":

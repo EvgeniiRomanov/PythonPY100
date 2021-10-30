@@ -1,17 +1,20 @@
 type: theory
 files:
+- name: __init__.py
+  visible: false
+  learner_created: false
 - name: main.py
   visible: true
   placeholders:
   - offset: 152
-    length: 38
+    length: 26
     placeholder_text: '[]  # TODO записать list comprehension'
     initial_state:
       length: 38
       offset: 152
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '[i ** 2 for i in range(n)]'
   text: |
     def list_over_for_loop(n):
@@ -31,9 +34,6 @@ files:
         print(list_over_for_loop(num))
         print(list_comprehension(num))
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true
