@@ -1,3 +1,9 @@
 if __name__ == "__main__":
-    # Write your solution here
-    pass
+
+    matrix = []
+
+    for row in range(1, 10):
+        for col in range(1, 10):
+            matrix[row][col] = row * col
+
+    print(matrix)

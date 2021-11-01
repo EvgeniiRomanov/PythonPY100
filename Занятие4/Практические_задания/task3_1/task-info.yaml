@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 129
-    length: 30
+  - offset: 115
+    length: 28
     placeholder_text: '# TODO посчитать через ключи'
     initial_state:
       length: 28
@@ -13,7 +13,7 @@ files:
     selected: false
     status: Solved
     encrypted_possible_answer: sum_ = 0
-  - offset: 300
+  - offset: 229
     length: 35
     placeholder_text: '# TODO посчитать через метод values'
     initial_state:
@@ -40,6 +40,9 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
+- name: collect_counter.py
+  visible: true
+  learner_created: true
 status: Solved
 record: -1
 post_submission_on_open: true
