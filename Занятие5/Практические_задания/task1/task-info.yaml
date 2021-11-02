@@ -18,6 +18,33 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
+- name: task1.py
+  visible: true
+  learner_created: true
+- name: task2.py
+  visible: true
+  learner_created: true
+- name: task3.py
+  visible: true
+  learner_created: true
+- name: task4.py
+  visible: true
+  learner_created: true
+- name: task5.py
+  visible: true
+  learner_created: true
+- name: task6.py
+  visible: true
+  learner_created: true
+- name: task7.py
+  visible: true
+  learner_created: true
+- name: task8.py
+  visible: true
+  learner_created: true
+- name: task9.py
+  visible: true
+  learner_created: true
 status: Solved
 record: -1
 post_submission_on_open: true
