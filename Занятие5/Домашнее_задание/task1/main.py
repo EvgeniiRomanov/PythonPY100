@@ -1,28 +1,34 @@
 if __name__ == "__main__":
 
+    # i = 9
+    # lenght = len(str(i**2)) + 3
+    # wight = len(str(i)) + 3
+    #
+    # headers = ' ' * wight + ' ' + ''.join([str(x).rjust(lenght) for x in range(1, i+1)])
+    # dashes = ' ' * wight + ':' + '-' * lenght * i
+    # body = ''
+    #
+    # for row in range(1, i+1):
+    #     #print("Строка", row, end=' ')
+    #     body += str(row).rjust(wight) + ':'
+    #     for column in range(1, i+1):
+    #         #print("Столбец", column, end=' ')
+    #         body += str(row * column).rjust(lenght)
+    #     body += '\n'
+    #     #print()
+    #
+    # print("\n".join([headers, dashes, body]))
+
     i = 9
-    lenght = len(str(i**2)) + 3
-    wight = len(str(i)) + 3
 
-    headers = ' ' * wight + ' ' + ''.join([str(x).rjust(lenght) for x in range(1, i+1)])
-    dashes = ' ' * wight + ':' + '-' * lenght * i
-
-
-
-    body = ''
-
+    for j in range(1, i+1):
+        print(f"{j:>5}", end='')
+    print("\n   ___________________________________________")
     for row in range(1, i+1):
-        #print("Строка", row, end=' ')
-        body += str(row).rjust(wight) + ':'
+        print(f"{row}|", end='')
         for column in range(1, i+1):
-            #print("Столбец", column, end=' ')
-            body += str(row * column).rjust(lenght)
-        body += '\n'
-        #print()
-
-    print("\n".join([headers, dashes, body]))
-
-
+            print(f"{row * column:^5}", end='')
+        print('\n')
 
     # matrix = []
     #
